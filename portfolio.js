@@ -8,7 +8,7 @@ let softskills=document.querySelector('.Softskills');
 scldata.addEventListener('click',()=>{
     educontent.innerText="";
     let p=document.createElement('p');
-    p.innerText="i completed schooling in Ekashila Techno School located at Hasanparthy, Warangal. I scored 9.7 GPA in SSC board examination.";
+    p.innerText="I completed schooling in Ekashila Techno School located at Hasanparthy, Warangal. I scored 9.7 GPA in SSC board examination.";
     p.classList.add("para");
     educontent.append(p);
 })
@@ -16,7 +16,7 @@ let interdata=document.querySelector('#second');
 interdata.addEventListener('click',()=>{
     educontent.innerText="";
     let p=document.createElement('p');
-    p.innerText="i completed my intermediate in Narayan junior college located at Rangareddy district. I scored 96% in intermediate public examination.";
+    p.innerText="I completed my intermediate in Narayana junior college [M.P.C] located at Rangareddy district. I scored 96% in intermediate public examination.";
     p.classList.add("para");
     educontent.append(p);
     console.log('school clik')
@@ -25,7 +25,7 @@ let enginneringdata=document.querySelector('#third');
 enginneringdata.addEventListener('click',()=>{
     educontent.innerText="";
     let p=document.createElement('p');
-    p.innerText="I am currently pursuing my B-Tech in Vaagdevi college of engineering located at Bollikunta, Warangal, In the stream of Data Science.";
+    p.innerText="I am currently pursuing my B-Tech in Vaagdevi college of engineering in the stream of Data science, located at Warangal.";
     p.classList.add("para");
     educontent.append(p);
     console.log('school clik')
