@@ -61,9 +61,8 @@ body {
     margin-left: 20px;
 }
 .navi-left b {
-    color: #67e4e4;
-    text-shadow: 0 0 1px black,
-    0 0 5px #67e4e4;
+    color: #06a7a7;
+    
 }
 .navi-right li :hover {
     color: #67e4e4;
