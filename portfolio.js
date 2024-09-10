@@ -51,9 +51,21 @@ let backend=document.querySelector('.Backend');
 backend.addEventListener('click',()=>{
     unorder.innerHTML="";
     let future=document.createElement('li');
-    future.innerHTML="I planned to complete full stack development in coming months present i am not having other courses to complete "
+    future.innerHTML="NODE.JS";
+    let future1=document.createElement('li');
+    future1.innerHTML="EXPRESS";
+    let future2=document.createElement('li');
+    future2.innerHTML="REST APIS";
+    let future3=document.createElement('li');
+    future3.innerHTML="MONGODB";
     future.classList.add('biglist');
+    future1.classList.add('biglist');
+    future2.classList.add('biglist');
+    future3.classList.add('biglist');
     unorder.appendChild(future);
+    unorder.appendChild(future1);
+    unorder.appendChild(future2);
+    unorder.appendChild(future3);
     document.querySelector('.rightskill-box').classList.add('slide-ing');
 });
 framworks.addEventListener('click',()=>{
