@@ -31,7 +31,7 @@ enginneringdata.addEventListener('click',()=>{
     console.log('school clik')
 })
 let frontend=document.querySelector('.Frontend');
-frontend.addEventListener('click',()=>{
+frontend.addEventListener('mouseover',()=>{
     unorder.innerHTML="";
     let list1=document.createElement('li');
     list1.innerHTML="HTML";
@@ -48,7 +48,7 @@ frontend.addEventListener('click',()=>{
     document.querySelector('.rightskill-box').classList.add('slide-ing');
 });
 let backend=document.querySelector('.Backend');
-backend.addEventListener('click',()=>{
+backend.addEventListener('mouseover',()=>{
     unorder.innerHTML="";
     let future=document.createElement('li');
     future.innerHTML="NODE.JS";
@@ -68,15 +68,27 @@ backend.addEventListener('click',()=>{
     unorder.appendChild(future3);
     document.querySelector('.rightskill-box').classList.add('slide-ing');
 });
-framworks.addEventListener('click',()=>{
+framworks.addEventListener('mouseover',()=>{
     unorder.innerHTML="";
     let boot=document.createElement('li');
+    let reac=document.createElement('li');
+    let wind=document.createElement('li');
+    let redu=document.createElement('li');
     boot.innerHTML="BootStrap";
+    reac.innerHTML="React";
+    wind.innerHTML="TailwindCss";
+    redu.innerHTML="Redux";
     boot.classList.add('lists');
+    reac.classList.add('lists');
+    wind.classList.add('lists');
+    redu.classList.add('lists');
     unorder.appendChild(boot);
+    unorder.appendChild(reac);
+    unorder.appendChild(wind);
+    unorder.appendChild(redu);
     document.querySelector('.rightskill-box').classList.add('slide-ing');
 });
-tools.addEventListener('click',()=>{
+tools.addEventListener('mouseover',()=>{
     unorder.innerHTML="";
     let list1=document.createElement('li');
     list1.innerHTML="Git-hub";
@@ -92,7 +104,7 @@ tools.addEventListener('click',()=>{
     unorder.appendChild(list3);
     document.querySelector('.rightskill-box').classList.add('slide-ing');
 });
-softskills.addEventListener('click',()=>{
+softskills.addEventListener('mouseover',()=>{
     unorder.innerHTML="";
     let list1=document.createElement('li');
     list1.innerHTML="Communication";
