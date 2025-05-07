@@ -25,7 +25,7 @@ let enginneringdata=document.querySelector('#third');
 enginneringdata.addEventListener('click',()=>{
     educontent.innerText="";
     let p=document.createElement('p');
-    p.innerText="I am currently pursuing my B-Tech in Vaagdevi college of engineering in the stream of Data science, located at Warangal.";
+    p.innerText="I just completed my Bachelor of Technology Degree in 2025 at Vaagdevi college of engineering, There I maintained cgpa of 8.6.";
     p.classList.add("para");
     educontent.append(p);
     console.log('school clik')
